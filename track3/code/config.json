@@ -1,0 +1,40 @@
+{
+  "Token":"A6OIIpj5icNMZJVe7fLCEw",
+  "readable_name": "clvision_track3",
+  "business_flag": "youtu_fuxi_team2",
+  "model_local_file_path": "/youtu/fuxi-team2-2/persons/jinxianglai/CLvision2022/mmdetection_track3/mmdetection/code",
+  "GPUName": "V100",
+  "cuda_version": "11.0",
+  "host_num": 1,
+  "host_gpu_num": 8,
+  "image_full_name": "mirrors.tencent.com/niceliu/clvsion-mmcv1.4.1:latest",
+
+  "dataset_params": {
+      "dataset_source": "outer_ceph",
+      "dataset_name": "youtu-ceph-xlab-team2-rw",
+      "ceph_info": [
+          {
+              "addr": "9.23.1.81:6789,9.23.1.84:6789,9.23.1.85:6789",
+              "name": "youtu",
+              "secret": "AQAIbr5eoP+vDBAABDwvu/zZzFD7OuLcmdSdaQ==",
+              "src_path": "/youtu/xlab-team2",
+              "dst_path": "/youtu/fuxi-team2"
+          },
+          {
+              "addr": "9.23.1.81:6789,9.23.1.84:6789,9.23.1.85:6789",
+              "name": "youtu",
+              "secret": "AQAIbr5eoP+vDBAABDwvu/zZzFD7OuLcmdSdaQ==",
+              "src_path": "/youtu/xlab-team2-2",
+              "dst_path": "/youtu/fuxi-team2-2"
+          },
+          {
+              "addr": "9.22.150.83:6789,9.22.150.89:6789,9.22.145.244:6789",
+              "name": "group887465",
+              "secret": "AQCFd41dX6IXHRAAcP1xvkHFPmflXMJPNQh1WA==",
+              "src_path": "/group/887465/public",
+              "dst_path": "/youtu-public",
+              "read_only": false
+          }
+      ]
+  }
+}
